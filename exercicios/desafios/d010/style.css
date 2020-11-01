@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Idroid';
+    src: url(idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#82EE7E;
+    margin: 0px;
+    text-shadow: 1px 1px #012404;
+}
+
+header{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+    background-image: linear-gradient(to top,#3A6B39,#2FB82A) ;
+}
+
+nav{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+    margin: 10px;
+}
+
+nav > a:visited{
+    color: #82EE7E;
+    text-decoration: none;
+}
+
+nav > a{
+    padding: 6px 20px;
+    text-decoration: none;
+    
+}
+
+nav > a:hover{
+    background-color: #82EE7E;
+    color: #1B6B19;
+    text-decoration: underline;
+    border-radius: 0px 5px;
+}
+
+article{
+    background-color: white;
+}
+
+article > div {
+    padding: 10px;
+}
+
+h1#sup{
+    margin-top: 0px;
+}
+
+h1{
+    font-family: 'Idroid';
+}
+
+h2.conteudo{
+    background-image: linear-gradient(to right, #51EE73, white);
+    border-radius: 20px 0px ;
+}
+
+div.video{
+    border-radius: 10px 0px;
+    background-color: #192e19;
+    padding: 20px;
+}
+
+div#androidvideo{
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div#androidvideo > iframe{
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+strong{
+    color: #025709;
+}
+
+a.uteis{
+    background-color: #38a750;
+    color: #025709;
+    padding: 2px 8px;
+    border-radius: 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.uteis:hover{
+    text-decoration: underline;
+    color: #047a0e;
+}
+
+a.rodape{
+    color: #012404;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.rodape:hover{
+    text-decoration: underline;
+    color: #023a07;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    text-decoration: underline dotted;
+}
+
+.conteudo{
+    text-indent: 10px;
+
+}
+
+.lista{
+    display: inline-block;
+    padding: 10px 100px;
+    margin: auto;
+}
+
+.tabela{
+    background-color: #38a750;
+    border-radius: 10px;
+}
+
+.tabela > h2{
+    background-color: #1B6B19;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.tabela > p{
+    padding: 10px;
+}
+
+footer{
+    background-color: #246B34;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 0px;
+}

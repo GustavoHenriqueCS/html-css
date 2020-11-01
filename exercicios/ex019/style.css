@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    Tudo emm HTML que é reconhecido como id == '#' é reconhecido como # em CSS
+    Tudo emm HTML que é reconhecido como class == '.' é reconhecido como . em CSS
+*/
+
+body{
+    background-color: cornflowerblue;
+    
+}
+
+h1{
+    color: darkmagenta;
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h2{
+    color: rgb(94, 54, 94);
+}
+
+p{
+    text-align: justify;
+}
+
+.basico{
+    color: rgb(55, 94, 54);
+}
+
+.intermediario{
+    color: rgb(93, 94, 54);
+}
+
+.avancado{
+    color: rgb(94, 54, 54);
+}
+
+.destaque{
+    background-color: rgba(139, 0, 139, 0.24);
+}

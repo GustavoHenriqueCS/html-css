@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pauso-elementos</title>
+    <style>
+    /*      SELETORES PERSONALIZADOS
+            #   =   Id
+            .   =   class
+            :   =   pseudo-class
+            ::  =   pseudo-elements
+            >   =   children
+    
+    */
+
+        a{
+            color: darkcyan;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover::after{
+            color: cyan;
+            content: ' <=';
+        }
+
+        a:hover::before{
+            color: cyan;
+            content: '=> ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        <a href="https://github.com/estudonauta/html-css-old/blob/main/PDF-old/15%20-Seletores%20personalizados.pdf" target="_blank">Repositorio do GitHub</a>
+    </h1>
+    <h1>
+        <a href="https://www.youtube.com/user/cursosemvideo" target="_blank">Canal do Youtube</a>
+    </h1>
+    <h1>
+        <a href="https://www.cursoemvideo.com">Site do CursoEmVideo</a>
+    </h1>
+
+</body>
+</html>

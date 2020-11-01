@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(60, 67, 73);
+            margin: 0px;
+        }
+
+
+        header{
+            background-color: rgb(131, 148, 148);
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color:  rgb(93, 107, 107);
+            padding: 3px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.418);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: black;
+            padding: 3px 29px ;
+        }
+
+        nav > a:hover{
+            background-color: black;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: rgb(131, 148, 148);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+            border-radius: 0px 10px;
+        }
+
+        article{
+            background-color: rgb(131, 148, 148);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(68, 77, 77);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            border: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>desevolvimento Web 2020 (HTML5+CSS3)</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p>Esportes</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h1>Titulo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum! Dolorum optio excepturi perferendis aperiam maxime neque corporis, consequuntur eaque. Distinctio eligendi illo et nihil neque at praesentium minima? Labore?</p>
+                <aside>Escrito por Gustavo Guanabara</aside>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Criado por Gustavo Henrique </p>
+    </footer>
+    
+</body>
+</html>
+
+
